@@ -1,0 +1,434 @@
+@media (max-width: 1200px){
+
+    .block-img-right:before {
+        position: absolute;
+        content: '';
+        width: 200px;
+        height:  200px;
+        border: 20px solid #e8c300;
+        top: 132px;
+        right: 300px;
+
+        transform: scale(1);
+    }
+    .block-img-right:hover:before {
+
+        animation: right 2s forwards  alternate ;
+    }
+    @keyframes right {
+        0% {
+            right:300px;
+        }
+        50% {
+            right:230px;
+        }
+        100% {
+            right: 140px;
+            transform: scale(2);
+        }
+    }
+}
+
+
+#bookAtable .name {
+    width: 212px;
+    height: 45px;
+}
+#bookAtable .btn-book {
+    width: 444px;
+    height: 45px;
+    font-size: 18px;
+}
+
+
+@media (max-width: 992px) {
+    .navSection{
+        display: none;
+    }
+
+    .burger-menu{
+        display: block;
+    }
+    /*##########hero###########*/
+    /*##########hero###########*/
+    .hero_description{
+        left: -90px;
+        font-size: 13px;
+    }
+    .hero_title{
+        font-size: 78px;
+    }
+    /*##########hero###########*/
+    /*##########hero###########*/
+    /*##########about-us###########*/
+    /*##########about-us###########*/
+    .titles {
+        font-size: 30px;
+    }
+    #about-us .about-us_subtitle {
+        font-size: 16px;
+    }
+    #about-us .about-us_description {
+        font-size: 14px;
+    }
+    /*##########about-us###########*/
+    /*##########about-us###########*/
+    /*##########our-team###########*/
+    /*##########our-team###########*/
+    .block-img-right:before {
+        position: absolute;
+        content: '';
+        width: 200px;
+        height:  200px;
+        border: 20px solid #e8c300;
+        top: 132px;
+        right: 43px;
+
+        transform: scale(1);
+    }
+    .block-img-right:hover:before {
+
+        animation: right 2s forwards  alternate ;
+
+
+
+    }
+    @keyframes right {
+        0% {
+            right: 40px;
+        }
+        50% {
+            right:230px;
+        }
+        100% {
+            right: 380px;
+            transform: scale(2);
+        }
+    }
+    /*##########our-team###########*/
+    /*##########our-team###########*/
+    /*##########bookAtable###########*/
+    /*##########bookAtable###########*/
+    #bookAtable .name {
+        width: 100%;
+        height: 55px;
+    }
+    #bookAtable .btn-book {
+         width: 100%;
+         height: 55px;
+        font-size: 19px;
+     }
+
+    /*##########bookAtable###########*/
+    /*##########bookAtable###########*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    /*##########hero###########*/
+    /*##########hero###########*/
+    .yakor{
+        top: 20px;
+        width: 100px;
+        height: 100px;
+    }
+    #hero .hero_description{
+        top: 31%;
+        left: 220px;
+        transform: rotate(0deg);
+    }
+    /*##########hero###########*/
+    /*##########our-team###########*/
+    /*##########our-team###########*/
+    .block-img-right:before {
+        position: absolute;
+        content: '';
+        width: 200px;
+        height:  200px;
+        border: 20px solid #e8c300;
+        top: 132px;
+        right: 43px;
+
+        transform: scale(1);
+    }
+    .block-img-right:hover:before {
+
+        animation: right 2s forwards  alternate ;
+
+
+
+    }
+    @keyframes right {
+        0% {
+            right: 40px;
+        }
+        50% {
+            right:130px;
+        }
+        100% {
+            right: 395px;
+            transform: scale(2);
+        }
+    }
+    /*##########our-team###########*/
+    /*##########our-team###########*/
+    /*##########booktable###########*/
+    /*##########booktable###########*/
+    .contact-description{
+        padding:0 40px;
+    }
+    .contact_name {
+        width: 32.8%;
+    }
+    /*##########booktable###########*/
+    /*##########booktable###########*/
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+    #hero .hero_icons {
+        position: absolute;
+        transform: rotate(-179deg);
+        top: 60%;
+        left: 72px;
+    }
+    /*##########hero###########*/
+    /*##########hero###########*/
+    #hero .hero_description {
+        top: 65%;
+        left: -96px;
+        transform: rotate(90deg);
+        font-size: 12px;
+    }
+    #hero .hero_subtitle {
+        font-size: 14px;
+        line-height: 13px;
+        text-align: center;
+        padding-top: 162px;
+    }
+    #hero .hero_title {
+        font-family: "Banny", sans-serif;
+        font-size: 44px;
+    }
+    #hero .hero_btn {
+        width: 78px;
+        height: 35px;
+        background: #e8c300;
+        color: #fff;
+        font-size: 9px;
+    }
+    .second_btn{
+        background: transparent;
+    }
+  .hero_icons{
+      display: none;
+  }
+    /*##########hero###########*/
+    /*##########hero###########*/
+    /*##########about-us###########*/
+    /*##########about-us###########*/
+    .img-width {
+        width: 330px;
+        height: 330px;
+        margin: -20px;
+    }
+    #about-us .block-img:before {
+        position: absolute;
+        content: '';
+        width: 139px;
+        height: 139px;
+        border: 10px solid #e8c300;
+        right: 23px;
+        top: 75px;
+    }
+    @keyframes left {
+        0% {
+            left: 310px;
+        }
+        50% {
+            left: 180px;
+        }
+        100% {
+            left: 50px;
+            transform: scale(2);
+        }
+    }
+    /*##########about-us###########*/
+    /*##########about-us###########*/
+    /*##########our-team###########*/
+    /*##########our-team###########*/
+
+    .block-img-right:before {
+        position: absolute;
+        content: '';
+        width: 139px;
+        height: 139px;
+        border: 10px solid #e8c300;
+        top: 75px;
+        right: 43px;
+
+        transform: scale(1);
+    }
+    .block-img-right:hover:before {
+
+        animation: right 2s forwards  alternate ;
+
+
+
+    }
+    @keyframes right {
+        0% {
+            left: 310px;
+        }
+        50% {
+            left: 180px;
+        }
+        100% {
+            left:89px;
+            transform: scale(2);
+        }
+    }
+    /*##########our-team###########*/
+    /*##########our-team###########*/
+    /*##########menu###########*/
+    /*##########menu###########*/
+    #menu .menu-title {
+        font-size: 26px;
+    }
+    #menu .menu_subtitle {
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 46px;
+    }
+    #menu .tab_input {
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        margin: -3px auto;
+    }
+    #menu .menu-price_title {
+        display: block;
+        font-size: 14px;
+    }
+    #menu .menu-price_description {
+        font-size: 9px;
+    }
+    /*##########menu###########*/
+    /*##########menu###########*/
+    /*##########events###########*/
+    /*##########events###########*/
+    .block-img-events:before {
+        position: absolute;
+        content: '';
+        width: 139px;
+        height: 139px;
+        border: 10px solid #e8c300;
+        top: 75px;
+        right: 43px;
+        transform: scale(1);
+        z-index: 2;
+    }
+
+    .block-img-events:hover:before {
+        animation: left 2s forwards alternate;
+    }
+
+    @keyframes left {
+
+
+        0% {
+            left: 310px;
+        }
+        50% {
+            left: 150px;
+        }
+        100% {
+            left: 65px;
+            transform: scale(2);
+        }
+    }
+    .event_subtitle {
+        font-size: 11px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 22px;
+    }
+    /*##########events###########*/
+    /*##########events###########*/
+    /*##########contact###########*/
+    /*##########contact###########*/
+    .contact_name {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .contact_btn {
+        width: 50%;
+        height: 42px;
+    }
+    .contact-title {
+        font-size: 28px;
+    }
+    .contact-description {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 34px;
+    }
+    .contact-address {
+        font-size: 9px;
+        margin-top: -1px;
+    }
+    /*##########contact###########*/
+    /*##########contact###########*/
+    .block-img-book:before {
+        display: none;
+        position: absolute;
+        content: '';
+        width: 139px;
+        height: 139px;
+        border: 10px solid #e8c300;
+        right: 10px;
+        top: 79px;
+        transform: scale(1);
+    }
+
+    .block-img-book:hover:before {
+        animation: left 2s forwards alternate;
+    }
+
+    @keyframes left {
+
+
+        0% {
+            left: 310px;
+        }
+        50% {
+            left: 150px;
+        }
+        100% {
+            left: 130px;
+            transform: scale(2);
+        }
+    }
+}
